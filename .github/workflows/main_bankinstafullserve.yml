@@ -65,5 +65,5 @@ jobs:
         with:
           app-name: 'bankinstafullserve'
           slot-name: 'Production'
-          package: .
+          package: ./frontend/build
           
