@@ -22,7 +22,7 @@ const CustomerTable = ({ customers }) => {
 
       const callClient = new CallClient();
       const agent = await callClient.createCallAgent(credential, {
-        displayName: "Operator",
+        displayName: "Debo Pathak ",
       });
 
       const userToCall = { communicationUserId: customer.acsUserId };
